@@ -1,6 +1,16 @@
-venv/
+# Python
 __pycache__/
-.env
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Do NOT push Python source
+Python-3.10.19/
+
+# Runtime data files
+backend/attendance.json
+backend/users.json
+backend/attendance.xlsx
 *.log
-*.sqlite3
-.DS_Store
